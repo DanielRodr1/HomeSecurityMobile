@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título de Luces -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control de Luces"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+
+        <!-- Sala -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sala"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_sala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_sala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Cocina -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cocina"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_cocina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_cocina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Baño -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Baño"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_bano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_bano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Lavandería -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lavandería"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_lavanderia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_lavanderia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Habitación -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Habitación"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_habitacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_habitacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Oficina -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Oficina"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_oficina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_oficina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Garage -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Garage"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="@color/textPrimary" />
+
+            <Button
+                android:id="@+id/btn_light_on_garage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encender"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_light_off_garage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apagar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

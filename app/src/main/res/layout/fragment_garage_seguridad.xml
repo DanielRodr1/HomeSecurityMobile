@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garage y Seguridad"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Botones del Garage -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_garage_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abrir"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_garage_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerrar"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+        <!-- Botones de Seguridad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/btn_safe_mode_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activar Modo Seguro"
+                android:backgroundTint="@color/buttonPositive"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_safe_mode_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desactivar Modo Seguro"
+                android:backgroundTint="@color/buttonNegative"
+                android:textColor="@color/primaryTextColor" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

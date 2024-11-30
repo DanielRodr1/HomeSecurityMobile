@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1029996298991",
+    "firebase_url": "https://casadomotica-c01a8-default-rtdb.firebaseio.com",
+    "project_id": "casadomotica-c01a8",
+    "storage_bucket": "casadomotica-c01a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029996298991:android:f70bf5b04f26efa8e8511a",
+        "android_client_info": {
+          "package_name": "com.upao.HomeSecurity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaETIZcVivaRuHFZAR6cuUwqeS2Imi1S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
